@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR-Rohrreinigung | 24/7 Rohrreinigung Filderstadt</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+    /* ========== Grundlegende Styles ========== */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* ===== Header / Hero-Bereich ===== */
+    header {
+        height: 100vh; /* Header nimmt ganze Bildschirmhöhe */
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('handwerker.png') no-repeat center center/cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    header a.button {
+        background-color: #0072ce;
+        color: #fff;
+        padding: 0.8rem 1.8rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+    }
+
+    header a.button:hover {
+        background-color: #005ea3;
+    }
+
+    /* ===== Leistungen ===== */
+    .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 4rem 10%;
+        background-color: #f5f6f8; /* grauer Hintergrund für Services */
+    }
+
+    .service-card {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    .service-card h3 {
+        margin-bottom: 1rem;
+        color: #0072ce;
+    }
+
+    /* ===== Kontaktbereich ===== */
+    .contact {
+        background-color: #0072ce;
+        color: #fff;
+        padding: 4rem 10%;
+        text-align: center;
+    }
+
+    .contact h2 {
+        margin-bottom: 1rem;
+    }
+
+    .contact a {
+        display: inline-block;
+        background-color: #fff;
+        color: #0072ce;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .contact a:hover {
+        background-color: #005ea3;
+        color: #fff;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+        background-color: #333;
+        color: #f5f6f8;
+        text-align: center;
+        padding: 2rem 10%;
+    }
+
+    footer a {
+        color: #0072ce;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #005ea3;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.2rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        .services {
+            padding: 4rem 5%;
+        }
+
+        .contact {
+            padding: 4rem 5%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+
+    <!-- ===== Header / Hero-Bereich ===== -->
+    <header>
+        <h1>RR-Rohrreinigung</h1>
+        <p>24/7 Rohrreinigung im Raum Filderstadt, Stuttgart & Reutlingen</p>
+        <a href="#contact" class="button">Jetzt anrufen: 0176 80897239</a>
+    </header>
+
+    <!-- ===== Leistungen ===== -->
+    <section class="services">
+        <div class="service-card">
+            <h3>Rohrreinigung</h3>
+            <p>Schnell & zuverlässig bei allen Rohrproblemen.</p>
+        </div>
+        <div class="service-card">
+            <h3>Kanalservice</h3>
+            <p>Inspektion und Wartung professionell erledigt.</p>
+        </div>
+        <div class="service-card">
+            <h3>24/7 Notdienst</h3>
+            <p>Immer erreichbar – wir helfen sofort!</p>
+        </div>
+    </section>
+
+    <!-- ===== Kontaktbereich ===== -->
+    <section class="contact" id="contact">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Rufen Sie uns an oder schreiben Sie eine Nachricht:</p>
+        <a href="tel:017680897239">0176 80897239</a>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>RR-Rohrreinigung | <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
+    </footer>
+
+</body>
+</html>

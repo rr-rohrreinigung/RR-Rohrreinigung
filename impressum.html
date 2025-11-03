@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | RR-Rohrreinigung</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ===== Eigenes CSS für Impressum ===== */
+        body {
+            background-color: #f5f6f8;
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        header {
+            background-color: #0072ce;
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+        }
+
+        header a.button {
+            background-color: #fff;
+            color: #0072ce;
+            padding: 0.6rem 1.4rem;
+            border-radius: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        header a.button:hover {
+            background-color: #005ea3;
+            color: #fff;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            background-color: #fff;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            color: #0072ce;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #f5f6f8;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: #0072ce;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        footer a:hover {
+            color: #005ea3;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem;
+                margin: 2rem 1rem;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Impressum</h1>
+        <a href="index.html" class="button">Zurück zur Startseite</a>
+    </header>
+
+    <main>
+        <h2>Angaben gemäß § 5 TMG</h2>
+        <p>
+            <strong>RR-Rohrreinigung (Vermittler)</strong><br>
+            Reutestraße 10/4<br>
+            70794 Filderstadt
+        </p>
+
+        <h2>Kontakt</h2>
+        <p>
+            Telefon: 0176 80897239<br>
+            E-Mail: info@rr-rohrreinigung.de
+        </p>
+
+        <h2>Hinweis zur Tätigkeit</h2>
+        <p>
+            Die RR-Rohrreinigung tritt <strong>nur als Vermittler</strong> von Rohrreinigungsdienstleistungen auf. 
+            Die eigentlichen Dienstleistungen werden von Partnerunternehmen ausgeführt. 
+            Der Kunde erhält durch die Buchung über RR-Rohrreinigung keinen eigenen Werkvertrag mit uns, 
+            sondern mit dem ausführenden Partnerbetrieb.
+        </p>
+
+        <h2>Verantwortlich für den Inhalt</h2>
+        <p>RR-Rohrreinigung<br>Reutestraße 10/4<br>70794 Filderstadt</p>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> RR-Rohrreinigung | 
+        <a href="index.html">Startseite</a> | 
+        <a href="datenschutz.html">Datenschutz</a></p>
+    </footer>
+
+    <script>
+        // Jahr automatisch einfügen
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
